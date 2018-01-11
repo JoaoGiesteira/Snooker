@@ -1,0 +1,102 @@
+/*body do index*/
+
+#body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#credits{
+    text-align: center;    
+}
+
+/*botões do index e index2*/
+#membroequipa{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+#title{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+h2,h1{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn_jogar,
+#btn_ajuda,
+#btn_creditos,
+#btn_menu {
+    color: white;
+    font-family: Agency FB;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#btn_jogar:hover,
+#btn_ajuda:hover,
+#btn_creditos:hover,
+#btn_menu:hover{
+    color: greenyellow;
+}
+
+
+/*posiciona o canvas principal e o canvas secundário no html*/
+
+.zoom {
+    zoom: 67%;
+}
+
+/*canvas principal*/
+
+#myCanvas {
+    visibility: collapse;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    bottom: 1;
+    left: 0;
+    right: 0;
+}
+
+/*font agency_fb*/
+
+@font-face {
+    font-family: Agency FB;
+    src: url('../fonts/Agency_FB/Agency_FB.ttf');
+}
+
+@font-face {
+    font-family: Agency FB;
+    font-weight: bold;
+    src: url('../fonts/Agency_FB/Agency_FB_Bold.ttf');
+}
